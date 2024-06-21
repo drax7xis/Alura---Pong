@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  dotted-line {
+      height: 2px; /* Ajuste a altura conforme necessário */
+      width: 50%; /* Ajuste a largura conforme necessário */
+      background-color: transparent; /* Cor de fundo transparente */
+      border-top: 1px dotted rgb(255,255,255); /* Linha pontilhada preta */
+      margin: 0 auto; /* Centraliza horizontalmente */
+  }
